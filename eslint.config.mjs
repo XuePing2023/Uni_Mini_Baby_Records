@@ -32,6 +32,13 @@ export default uniHelper({
     'jsdoc/require-returns-description': 'off',
     'ts/no-empty-object-type': 'off',
     'no-extend-native': 'off',
+    'vue/no-undef-components': ['error', {
+      ignorePatterns: [
+        'wd-*',
+        'z-paging*',
+        'fg-*',
+      ],
+    }],
     'vue/singleline-html-element-content-newline': [
       'error',
       {

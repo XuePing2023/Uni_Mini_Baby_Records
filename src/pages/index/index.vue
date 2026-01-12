@@ -49,5 +49,8 @@ onLoad(() => {
         https://unibest.tech
       </text>
     </view>
+    <view>
+      <wd-button>Primary Button</wd-button>
+    </view>
   </view>
 </template>

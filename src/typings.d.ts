@@ -168,4 +168,14 @@ declare global {
   }
 }
 
+type WotDesignUniComponent = import('vue').DefineComponent<any, any, any>
+
+declare module 'vue' {
+  export interface GlobalComponents {
+    WdButton: WotDesignUniComponent
+    WdFab: WotDesignUniComponent
+    WdIcon: WotDesignUniComponent
+  }
+}
+
 export {} // 防止模块污染
